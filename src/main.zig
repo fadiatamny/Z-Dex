@@ -1,4 +1,5 @@
 const std = @import("std");
+const root = @import("./root.zig");
 
 pub fn main() !void {
     // Prints to stderr (it's a shortcut based on `std.io.getStdErr()`)
